@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+	<definition name="baseLayout" id="baseLayout" template="/WEB-INF/layout/baseLayout.jsp">
+		<put-attribute name="title" value="${title}"/>
+		<put-attribute name="header" value="/WEB-INF/layout/header.jsp"/>
+		<put-attribute name="menu" value="/WEB-INF/layout/menu.jsp"/>
+		<put-attribute name="body" value="${body}"/>
+		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+	</definition>
+	<definition name="enquiry" id="enquiry" extends="baseLayout">
+		<put-attribute name="title" value="EnquiryForm"/>
+		<put-attribute name="body" value="/WEB-INF/jsp/enquiryform.jsp"/>
+	</definition>
+</tiles-definitions>       

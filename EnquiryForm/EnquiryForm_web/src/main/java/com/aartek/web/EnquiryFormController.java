@@ -11,14 +11,5 @@ public class EnquiryFormController {
 	@Autowired
 	EnquiryFormService efs;
 	
-	//prashant..
-	//ankit..
-	//priya..
-	// Bhut Bhut
-	// Commit First Two
-/*<<<<<<< HEAD
-	//priya
-=======
-	//test
->>>>>>> stash*/
+	
 }

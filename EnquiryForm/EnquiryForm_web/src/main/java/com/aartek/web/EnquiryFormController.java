@@ -11,14 +11,5 @@ public class EnquiryFormController {
 	@Autowired
 	EnquiryFormService efs;
 	
-<<<<<<< HEAD
-	//	priya commit
-	// priya.....
-	// prashant commit ...
 	
-	// priya r
-	
-	// Ankit sakatpuriya Commit
-	//First pull
-	// pull shidhart ki girlfriends ??????? Bato
 }

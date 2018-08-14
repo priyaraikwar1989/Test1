@@ -25,7 +25,8 @@ public class EnquiryFormController {
 		System.out.println("Prshant");
 		System.out.println("Priya Choti ");
 		System.out.println("8527418965324104106523052041020");
-
+		System.out.println("Prshant");
+		System.out.println("Prshant");
 		}		
 		static{
 			System.out.println("We are just testing ");

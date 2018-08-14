@@ -16,12 +16,14 @@ public class EnquiryFormController {
 	@Autowired
 	EnquiryFormService efs;
 	
-	@RequestMapping("/demo")
+	@RequestMapping("/enquiry")
 	public String getDemo(Model model){
+		System.out.println("Enquiry Page Start");
 		
-		System.out.println("Demo Page");
-		
-		return "demo";
+		Person person=new Person();
+		model.addAttribute("keyPerson", person);
+		System.out.println("Enquiry Page End");
+		return "enquiry";
 	}
 
 }

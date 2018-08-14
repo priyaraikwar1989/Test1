@@ -1,5 +1,5 @@
 <html>
 <body>
-<% response.sendRedirect("demo.do"); %>
+<% response.sendRedirect("enquiry.do"); %>
 </body>
 </html>

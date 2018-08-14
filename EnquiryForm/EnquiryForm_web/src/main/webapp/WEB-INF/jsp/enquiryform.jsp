@@ -11,7 +11,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <body>
-	<form:form modelAttribute="person" action="enquirySubmit.do" method="post">
+	<form:form modelAttribute="keyPerson" action="enquirySubmit.do" method="post">
 	<table align="left" width="100%" cellpadding="1" cellspacing="1">
 		<tr>
 			<td>
@@ -45,8 +45,9 @@
 				<label>Profession : </label>
 			</td>
 			<td>
-				<form:select path="">
-					<form:options />
+				<form:select path="profession">
+					<form:option value="Engineer"/>
+					<form:option value="Doctor"/>
 				</form:select>
 			</td>
 		</tr>
@@ -56,19 +57,19 @@
 				<label>Comment : </label>
 			</td>
 			<td>
-				<form:textarea path="comment" cols="5" rows="50"/>
+				<form:textarea path="comment" cols="20" rows="4"/>
 			</td>
 		</tr>
-		
+		 
 		<tr>
 			<td>
 				<label>Send me promotional information : </label>
 			</td>
 			<td>
-				<form:checkbox path="promoalert"/>
+				<form:checkbox path="promoalert" />
 			</td>
 		</tr> 
-		
+		 
 		<tr>
 			<td colspan="2">
 				<input type="submit" value="Submit"/>

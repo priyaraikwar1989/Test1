@@ -9,7 +9,7 @@ public class Person implements Serializable{
 	private String email=null;
 	private String profession=null;
 	private String comment=null;
-	private String promoalert=null;
+	private Boolean promoalert=null;
 	public String getName() {
 		return name;
 	}
@@ -40,10 +40,10 @@ public class Person implements Serializable{
 	public void setComment(String comment) {
 		this.comment = comment;
 	}
-	public String getPromoalert() {
+	public Boolean getPromoalert() {
 		return promoalert;
 	}
-	public void setPromoalert(String promoalert) {
+	public void setPromoalert(Boolean promoalert) {
 		this.promoalert = promoalert;
 	}
 

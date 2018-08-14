@@ -10,6 +10,27 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<table width="100%" align="left" cellpadding="0" cellspacing="0">
+		<tr>
+			<td colspan="1">
+				<tiles:insertAttribute name="header"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1">
+				<tiles:insertAttribute name="menu"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1">
+				<tiles:insertAttribute name="body"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1">
+				<tiles:insertAttribute name="footer"/>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>

@@ -25,5 +25,5 @@ public class EnquiryFormController {
 		System.out.println("Enquiry Page End");
 		return "enquiry";
 	}
-
+	
 }

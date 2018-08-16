@@ -16,7 +16,7 @@
 				<tr>
 					<td>
 						<label>Name : </label>
-					</td>
+					</td> 
 					<td>
 						<form:input path="name"/>
 					</td>

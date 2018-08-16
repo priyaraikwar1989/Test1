@@ -14,11 +14,6 @@
 		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
 	</definition>
 	
-	<definition name="enquiry" id="enquiry" extends="baseLayout">
-		<put-attribute name="title" value="EnquiryForm"/>
-		<put-attribute name="body" value="/WEB-INF/jsp/enquiryform.jsp"/>
-	</definition>
-	
 <!-- 	<definition name="registration" id="registration" extends="baseLayout">
 		<put-attribute name="title" value="RegistrationForm"/>
 		<put-attribute name="body" value="/WEB-INF/jsp/registrationform.jsp"/>

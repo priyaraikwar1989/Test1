@@ -1,7 +1,9 @@
 <html>
 	<body>
-		<%
-			response.sendRedirect("enquiry.do");
-		%>
+		<%-- 
+		<%response.sendRedirect("enquiry.do");%>
+		 --%>
+		 
+		 
 	</body>
 </html>

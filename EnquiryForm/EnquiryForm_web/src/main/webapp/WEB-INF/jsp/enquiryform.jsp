@@ -12,7 +12,7 @@
 </head>
 <body>
 	<form:form modelAttribute="keyPerson" action="enquirySubmit.do" method="post">
-	<table align="left" width="100%" cellpadding="1" cellspacing="1">
+	<table width="100%" cellpadding="1" cellspacing="1" align="left">
 		<tr>
 			<td>
 				<label>Name : </label>
@@ -78,5 +78,6 @@
 		</tr>
 	</table>
 	</form:form>
+	<a href="registration.do">New User Registration</a>
 </body>
 </html>

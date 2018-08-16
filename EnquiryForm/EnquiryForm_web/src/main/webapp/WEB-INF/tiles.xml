@@ -29,5 +29,4 @@
 		<put-attribute name="body" value="/WEB-INF/jsp/registrationform.jsp"/>
 	</definition>
 	
-	
 </tiles-definitions>       

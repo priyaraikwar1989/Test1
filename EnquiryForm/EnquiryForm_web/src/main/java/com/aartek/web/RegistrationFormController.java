@@ -24,5 +24,5 @@ public class RegistrationFormController {
 		return "registration";
 	}
 	
-	
+	//	test
 }

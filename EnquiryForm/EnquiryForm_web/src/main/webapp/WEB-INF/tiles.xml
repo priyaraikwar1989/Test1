@@ -19,9 +19,9 @@
 		<put-attribute name="body" value="/WEB-INF/jsp/enquiryform.jsp"/>
 	</definition>
 	
-	<definition name="registration" id="registration" extends="baseLayout">
+<!-- 	<definition name="registration" id="registration" extends="baseLayout">
 		<put-attribute name="title" value="RegistrationForm"/>
 		<put-attribute name="body" value="/WEB-INF/jsp/registrationform.jsp"/>
 	</definition>
-	
+	 -->
 </tiles-definitions>       
